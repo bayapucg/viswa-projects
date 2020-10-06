@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon"  href="<?=base_url();?>favicon.png">
-    <title><?php echo $page_title;?> | Facio - Dashboard</title>
+    <title><?php echo $page_title;?> | Shoppy Shop - Dashboard</title>
     <link rel="shortcut icon" href="<?=base_url();?>assets/images/small_logo.jpg" />
     <link href="<?=base_url();?>admin_assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url();?>admin_assets/font-awesome/css/font-awesome.css" rel="stylesheet">

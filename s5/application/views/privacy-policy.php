@@ -9,8 +9,8 @@
 <h4 class="mt-4 site_head"  style="text-decoration: underline;">Privacy Policy</h4>
 </div>
 <div class="row no-gutters contact-wrap px-4 ">
-	<p>Facio shop privacy policy describes how protects and makes use of the information you give the company when you use our website. If you are asked to provide information when using <a href="<?php echo base_url();?>" target="_blank" class="text-primary">faciostores.com</a>, it will only be used in the ways described in this privacy policy. This policy is updated from time to time. </p>
-	<p>We gather and use certain information about individuals in order to provide products and services and to enable certain functions on <a href="<?php echo base_url();?>" target="_blank" class="text-primary">faciostores.com</a> </p>
+	<p>Shoppy Shop privacy policy describes how protects and makes use of the information you give the company when you use our website. If you are asked to provide information when using <a href="<?php echo base_url();?>" target="_blank" class="text-primary">shoppyshop.com</a>, it will only be used in the ways described in this privacy policy. This policy is updated from time to time. </p>
+	<p>We gather and use certain information about individuals in order to provide products and services and to enable certain functions on <a href="<?php echo base_url();?>" target="_blank" class="text-primary">shoppyshop.com</a> </p>
 	<p>We also collect information to better understand how visitors use this website and to present timely, relevant information to them.</p>
 
 

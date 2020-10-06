@@ -1,7 +1,7 @@
 <!-- slider Area Start-->
     <div class="slider-area ">
         <!-- Mobile Menu -->
-        <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/category.jpg">
+        <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/category.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -19,7 +19,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="login_part_text text-center">
-                        <div class="login_part_text_iner">
+                        <div class="">
                             <h2>New to our Shop?</h2>
                             <p>Facio is the digital fashion e-commerce website. Shop trendy, fresh, handpicked styles at the best prices. Shop Online, Buy and Check Gift Card Balance.</p>
                             <a href="<?php echo base_url();?>signup" class="btn_3">Create an Account</a>
