@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<?=base_url();?>assets/images/small_logo.jpg" />
-    <title>Faciostore | Login</title>
+    <title>Shoppy Shop< | Login</title>
     <link href="<?=base_url();?>admin_assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url();?>admin_assets/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="<?=base_url();?>admin_assets/css/animate.css" rel="stylesheet">    <link href="<?=base_url();?>admin_assets/css/style.css" rel="stylesheet">    <link href="<?= base_url() ?>admin_assets/js/plugins/toastr/toastr.min.css" rel="stylesheet">
@@ -39,10 +39,10 @@
         </div>		<div class="row" style="color: #000;padding-top: 60px">
             <hr/>
             <div class="col-md-6">
-                Copyright <a href="javascript:void(0);">Faciostore</a> &copy; <?=date('Y');?>-<?=date('Y', strtotime('+1 years'));?></a>
+                Copyright <a href="javascript:void(0);">Shoppy Shop</a> &copy; <?=date('Y');?>-<?=date('Y', strtotime('+1 years'));?></a>
             </div>
             <div class="col-md-6 text-right">
-               <small> Made With <i class="fa fa-heart" style="color: red"></i> By <a href="javascript:void(0);">Faciostore</a></small>
+               <small> Made With <i class="fa fa-heart" style="color: red"></i> By <a href="javascript:void(0);">Shoppy Shop</a></small>
             </div>
         </div>
     </div>

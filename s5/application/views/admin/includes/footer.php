@@ -1,9 +1,9 @@
 	<div class="footer">	
 		<div class="col-md-6">		
-			Copyright <a href="#">Facio Mart</a> &copy; <?=date('Y');?>-<?=date('Y', strtotime('+1 years'));?></a>	
+			Copyright <a href="#">Shoppy Shop<</a> &copy; <?=date('Y');?>-<?=date('Y', strtotime('+1 years'));?></a>	
 		</div>		
 		<div class="col-md-6 text-right">	
-			<div> Made With <i class="fa fa-heart" style="color: red"></i> By <a href="#####">Facio Mart</a></div>	
+			<div> Made With <i class="fa fa-heart" style="color: red"></i> By <a href="#####">Shoppy Shop<</a></div>	
 		</div>	
 	</div>
 </div>

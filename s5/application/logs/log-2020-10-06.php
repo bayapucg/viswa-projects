@@ -236,3 +236,7 @@ ERROR - 2020-10-06 12:19:58 --> 404 Page Not Found: Sitewebmanifest/index
 ERROR - 2020-10-06 12:21:28 --> 404 Page Not Found: Sitewebmanifest/index
 ERROR - 2020-10-06 13:12:26 --> 404 Page Not Found: Sitewebmanifest/index
 ERROR - 2020-10-06 13:12:32 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-06 13:17:50 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-10-06 13:17:50 --> 404 Page Not Found: Assets/images
+ERROR - 2020-10-06 13:19:44 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-06 13:20:27 --> 404 Page Not Found: Assets/images
