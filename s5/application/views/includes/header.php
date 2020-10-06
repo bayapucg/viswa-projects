@@ -82,11 +82,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>faciostore</title>
+        <title>Shoppy Shop</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
 		<link rel="icon" href="<?php echo base_url();?>assets/img/favicon.png">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
@@ -107,7 +108,7 @@
         <!-- Header Start -->
        <div class="header-area">
             <div class="main-header ">
-				<div class="header-top top-bg d-none d-lg-block" style="background:#feed67;font-weight:bold;padding:10px 10px;">
+				<!--<div class="header-top top-bg d-none d-lg-block" style="background:#feed67;font-weight:bold;padding:10px 10px;">
                    <div class="container-fluid">
                        <div class="col-xl-12">
                             <div class="text-center">
@@ -115,7 +116,7 @@
                             </div>
                        </div>
                    </div>
-                </div>
+                </div>-->
                <div class="header-bottom  header-sticky">
                     <div class="container-fluid">
                         <div class="row align-items-center">
@@ -150,7 +151,7 @@
                                 <ul class="header-right f-right d-none d-lg-block d-flex justify-content-between">                         
                                     <li>
                                         <div class="shopping-card">
-                                            <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
+                                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
 									<?php if(isset($_SESSION['id']) && $_SESSION['id']!=""){ ?>

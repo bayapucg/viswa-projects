@@ -21,8 +21,8 @@
                 <div class="col-lg-12 mb-0 pb-0">
                     <div class="about_us_content">
                         <h5>Who we are?</h5>
-                        <p class="mb-1 pb-0">Facio is the digital fashion e-commerce website.  Facio is the ultimate fashion destination for styles that are handpicked, trendy, and at prices that are available to you at the best prices.</p>
-                        <p class=" pb-0">Facio is constantly looking to bring a fresh, current, and accessible perspective to personal style. We bring you the trendiest and most exclusive brands from around the world to your wardrobe.</p>
+                        <p class="mb-1 pb-0">Shoppy Shop is the digital fashion e-commerce website.  Shoppy Shop is the ultimate fashion destination for styles that are handpicked, trendy, and at prices that are available to you at the best prices.</p>
+                        <p class=" pb-0">Shoppy Shop is constantly looking to bring a fresh, current, and accessible perspective to personal style. We bring you the trendiest and most exclusive brands from around the world to your wardrobe.</p>
                      
                     </div>
                 </div>

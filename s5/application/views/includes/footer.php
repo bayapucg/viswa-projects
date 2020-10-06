@@ -12,7 +12,7 @@
                             </div>
                             <div class="footer-tittle">
                                 <div class="footer-pera">
-                                    <p>Facio is the digital fashion e-commerce website. Shop trendy, fresh, handpicked styles at the best prices. Shop Online, Buy and Check Gift Card Balance.</p>
+                                    <p>Shoppy Shop is the digital fashion e-commerce website. Shop trendy, fresh, handpicked styles at the best prices. Shop Online, Buy and Check Gift Card Balance.</p>
                                </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                <h4>Contact</h4>
                                 <ul>                               
 									<li>Email id : info@.com</li>
-									<li>Web &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: www.faciostore.com</li>                              
+									<li>Web &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: www.Shoppy Shopstore.com</li>                              
 								</ul>
                            </div>
                        </div>
@@ -70,7 +70,7 @@
                      <div class="footer-copy-right f-right">
                          <!-- social -->
                          <div class="footer-social">
-                             <a target='_blank' href="https://www.linkedin.com/company/faciostore/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+                             <a target='_blank' href="https://www.linkedin.com/company/Shoppy Shopstore/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
                              <a target='_blank' href="#"><i class="fab fa-facebook-f"></i></a>
                          </div>
                      </div>
