@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-09-10 01:22:58 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2020-09-10 03:25:21 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 03:25:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 04:50:18 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 05:55:05 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 07:33:29 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:33:30 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:33:32 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:33:36 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:34:07 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:34:11 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:34:16 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:34:39 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 07:34:41 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 10:08:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 14:12:02 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 17:06:56 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 17:14:41 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 17:58:48 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-10 18:34:41 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 18:34:43 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-09-10 18:34:43 --> 404 Page Not Found: Assets/images
+ERROR - 2020-09-10 18:34:57 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-10 18:35:02 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-10 18:39:37 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-10 23:13:22 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-09-10 23:24:06 --> 404 Page Not Found: Cartphp/index
+ERROR - 2020-09-10 23:41:30 --> 404 Page Not Found: Robotstxt/index
