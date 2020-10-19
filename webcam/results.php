@@ -41,18 +41,18 @@
 							);
 							$query = $dbh->prepare("UPDATE `athomreports` SET `custid`='$custid' WHERE `id`=?");
 							$query->execute(array_values($roww));
-							if(isset($pulseoxid) && $pulseoxid!=0){								
-								$row = array(
-									'id' =>$pulseoxid,
-								);
-								$query = $dbh->prepare("UPDATE `pulseox` SET `statusflag`=0 WHERE `id`=?");
-								$query->execute(array_values($row));
-								$row = array(
-									'id' =>$emprfid,
-								);
-								$query = $dbh->prepare("UPDATE `users_logs` SET `lastidenityflag`=0 WHERE `id`=?");
-								$query->execute(array_values($row));
-							}					
+							// if(isset($pulseoxid) && $pulseoxid!=0){								
+								// $row = array(
+									// 'id' =>$pulseoxid,
+								// );
+								// $query = $dbh->prepare("UPDATE `pulseox` SET `statusflag`=0 WHERE `id`=?");
+								// $query->execute(array_values($row));
+								// $row = array(
+									// 'id' =>$emprfid,
+								// );
+								// $query = $dbh->prepare("UPDATE `users_logs` SET `lastidenityflag`=0 WHERE `id`=?");
+								// $query->execute(array_values($row));
+							// }					
 							$idd = md5($LastID);							
 						}
 					}
