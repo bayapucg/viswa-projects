@@ -65,7 +65,7 @@
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
-									Men Collection 2018
+									Men Collection 2020
 								</span>
 							</div>
 								
@@ -388,7 +388,61 @@
                 <!-- End Nav Card -->
             </div>
         </section>
-       
+       <div class="best-collection-area section-padding2"  style="background:#f9f9f9">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-end">
+                    <!-- Left content -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="best-left-cap">
+                            <h2>Best Collection All Time!</h2>                           
+                            <a href="<?php echo base_url();?>products" class="btn shop1-btn">Shop Now</a>
+                        </div>
+                        <div class="best-left-img mb-30 d-none d-sm-block">
+                            <img src="<?php echo base_url();?>assets/img/collection/collection1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Mid Img -->
+                     <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                        <div class="best-mid-img mb-30 ">
+                            <img src="<?php echo base_url();?>assets/img/collection/collection2.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Riht Caption -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="best-right-cap ">
+                           <div class="best-single mb-30">
+                               <div class="single-cap">
+                                   <h4>Menz T-Shirts</h4>
+                               </div>
+                               <div class="single-img">
+                                  <img src="<?php echo base_url();?>assets/img/collection/collection3.png" alt="">
+                               </div>
+                           </div>
+                        </div>
+                        <div class="best-right-cap">
+                           <div class="best-single mb-30">
+                               <div class="single-cap active">
+                                   <h4>Menz Jeans</h4>
+                               </div>
+                               <div class="single-img">
+                                  <img src="<?php echo base_url();?>assets/img/collection/collection4.png" alt="">
+                               </div>
+                           </div>
+                        </div>
+                        <div class="best-right-cap">
+                           <div class="best-single mb-30">
+                               <div class="single-cap">
+                                   <h4>Menz Winter<br> Jacket</h4>
+                               </div>
+                               <div class="single-img">
+                                  <img src="<?php echo base_url();?>assets/img/collection/collection5.png" alt="">
+                               </div>
+                           </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
 
     </main>
   
