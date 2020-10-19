@@ -10,18 +10,100 @@
 		body {
 			background: #555;
 		}
-		.content {
-			max-width: 500px;
-			margin: auto;
-			background: white;
-			padding: 10px;
-		}	
+		
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}		
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+.blink-image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+.arrow-rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 	</style>
 	</head>
 	<body>
-	<div class="content">
-	<h1>Welcom to Athom </h1>  
-	</div>
+	<section >
+		<div class="container mt-4">
+			<h1 class="text-center text-white"><i>Welcome to Athom </i></h1>  
+			<div class="row justify-content-center d-flex">
+				<div class="col-md-4 mt-4">
+					<img src="img/touch-icon.png" class="img-fluid">
+				</div>
+			</div>
+			<div class="row justify-content-center d-flex">
+				<div class="col-md-7">
+					<h4 class="text-white">Place your finger on the sensor at the right hand side</h4>
+				</div>
+			</div>
+			
+		</div>
+		<div >
+				<img  style="position:absolute;right:0;top:50%;width:150px;" class="blink-image arrow-rotate" src="img/arrow.png" >
+			</div>
+		</section>
 	</body>
 </html>
 <script>

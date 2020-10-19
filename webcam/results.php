@@ -67,36 +67,48 @@
 				<div class="my-4 text-center">
 					<h1 class="text-white">ATOHM Report</h1>
 				</div>
-				<div class="row my-4  py-4 mx-1" style="background:#ffffff54;">
-					<div class="col-md-4">
+				<div class="row my-4  py-4 mx-1 d-flex justify-content-center" >
+					<div class="col-md-2">
 						<div>
 							<img src="img/temperture.png" class="img-fluid">
 						</div>
-						<div class="text-center mt-2 bord">							
+						<div class="text-center bord text-white">							
 							<?php
 								echo $tempature;
-							?>
+							?><sup>o</sup>F
 						</div>
+						<div class="text-center lab-text">
+							Temperature
+						</div>
+						
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2">
 						<div>
 							<img src="img/oxygen.png" class="img-fluid">
 						</div>
-						<div class="text-center mt-2 bord">
+						<div class="text-center  bord text-white">
 							<?php
 								echo $spo2;
 							?>
 						</div>
+							<div class="lab-text text-center">
+							Sp O<sub>2</sub>
+						</div>
+						
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2">
 						<div>
 							<img src="img/heart-rate.png" class="img-fluid">
 						</div>
-						<div class="text-center mt-2 bord">
+						<div class="text-center  bord text-white">
 							<?php
 								echo $bpm;
 							?>
 						</div>
+							<div class="lab-text text-center">
+							bpm
+						</div>
+						
 					</div>
 				</div>
 				<div class="my-4 text-center">

@@ -1,12 +1,5 @@
 .grad {
-	background: rgba(147, 152, 254, 1);
-	background: -moz-linear-gradient(top, rgba(147, 152, 254, 1) 0%, rgba(228, 237, 255, 1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147, 152, 254, 1)), color-stop(100%, rgba(228, 237, 255, 1)));
-	background: -webkit-linear-gradient(top, rgba(147, 152, 254, 1) 0%, rgba(228, 237, 255, 1) 100%);
-	background: -o-linear-gradient(top, rgba(147, 152, 254, 1) 0%, rgba(228, 237, 255, 1) 100%);
-	background: -ms-linear-gradient(top, rgba(147, 152, 254, 1) 0%, rgba(228, 237, 255, 1) 100%);
-	background: linear-gradient(to bottom, rgba(147, 152, 254, 1) 0%, rgba(228, 237, 255, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9398fe', endColorstr='#e4edff', GradientType=0);
+	background:#010101;
 }
 
 #results {
@@ -19,9 +12,9 @@
 	height:355px !important;
 }
 .bord {
-	border:2px solid #999;
+	
 	padding:5px;
-	font-size:18px;
+	font-size:30px;
 	font-weight:600;
 }
 .site-col{
@@ -380,4 +373,7 @@ body.sidenav-toggled .navbar-sidenav .nav-item {
 }
 .mt-100{
 	margin-top:15vh;
+}
+.lab-text{
+	color:#aaa;
 }

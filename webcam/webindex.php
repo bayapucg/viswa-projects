@@ -41,12 +41,49 @@
 			<input type="hidden" id="figureCheck" name="figureCheck" value="<?php echo $figureCheck; ?>">
 			<input type="hidden" id="id" name="id" value="<?php echo $id; ?>">
 			<div class="row d-flex justify-content-center">
-				<div class="col-md-6 ">
+				<div class="col-md-4 ">
 					<div class="px-4" id="my_camera"></div>
 					<br/>
-					<input class="btn btn-primary rounded-0" id="preview-ope" type="button" value="Take Snapshot" onClick="take_snapshot()">
-					<a href="javascript:void(0);" onClick="validate_form();" class="btn btn-warning rounded-0 text-white" type="button">Skip</a>
-					<input type="hidden" name="image" class="image-tag">
+					
+				</div>
+				<div class="col-md-4 mt-4">
+					<div class="row">
+						<div class="mt-3 col-md-12">
+							
+							<input class="form-control rounded-0" type="number" name="phone_number" id="code" placeholder="Phone Number">
+							<div class="btn-group-vertical  mt-1" role="group" aria-label="Basic example">					
+								<div class="btn-group" style="width:58vh;">
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '1';">1</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '2';">2</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '3';">3</button>
+								</div>
+								<div class="btn-group">
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '4';">4</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '5';">5</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '6';">6</button>
+								</div>
+								<div class="btn-group">
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '7';">7</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '8';">8</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '9';">9</button>
+								</div>
+								<div class="btn-group">
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value.slice(0, -1);">&lt;</button>
+									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '0';">0</button>
+									<button type="button" class="btn btn-primary py-3" onclick="document.getElementById('code').value='';">CLEAR</button>
+								</div>
+							</div>
+						</div>
+						<!--<div class="mt-3 col-md-2">
+							<label><strong> &nbsp;</strong></label>
+							<div>
+							<button onClick="validatefun();" type="button" id="btn_cnd" name="btn_cnd" class="btn btn-success rounded-0">Submit</button>
+							</div>
+						</div>-->
+					</div>
+				</div>
+				<div class="col-md-4 mt-4 text-white">
+					<img src="img/rfid.png" class="img-fluid">
 				</div>
 				<div class="col-md-6 show-priveiw" style="display:none">
 					<div id="results">Your captured image will appear here...</div>
@@ -88,10 +125,15 @@
 				<div class="col-md-12 text-center show-priveiw" style="display:none">
 					<br/>
 				</div>
-				<div class="clearfix">&nbsp;</div>
-				<div class="clearfix">&nbsp;</div>
-				<div class="clearfix">&nbsp;</div>
-				<div class="clearfix">&nbsp;</div>
+				
+				
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-3 text-center">
+					<input class="btn btn-primary rounded-0" id="preview-ope" type="button" value="Take Snapshot" onClick="take_snapshot()">
+					<a href="javascript:void(0);" onClick="validate_form();" class="btn btn-warning rounded-0 text-white" type="button">Skip</a>
+					<input type="hidden" name="image" class="image-tag">
+				</div>
 			</div>
 		</form>
 	</div>
@@ -173,8 +215,8 @@
 		// });
 	}
     Webcam.set({
-        width: 490,
-        height: 390,
+        width: 350,
+        height: 350,
         image_format: 'jpeg',
         jpeg_quality: 90
     });  
