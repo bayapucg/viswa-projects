@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 // echo $config['base_url'];exit;
-// $config['base_url'] = 'https://www.faciostores.com/';
+$config['base_url'] = 'http://localhost/viswa-projects/mejorfaciomart/';
 
 /*
 |--------------------------------------------------------------------------
