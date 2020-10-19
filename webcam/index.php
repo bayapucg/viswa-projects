@@ -25,18 +25,18 @@
 	</body>
 </html>
 <script>
-	setTimeout(function(){ 
-		var request = $.ajax({
-			url: 'checkdetails.php',
-			type: "POST",
-			dataType:'json',
-			data:{looser_form: 'looser_form'}               
-		});
-		request.done(function(msg) {
-			window.location = "results.php";
-		});
-		request.fail(function(jqXHR, textStatus) {
-			window.location = "index.php";
-		});
-	},3000);	
+	// setTimeout(function(){ 
+		// var request = $.ajax({
+			// url: 'checkdetails.php',
+			// type: "POST",
+			// dataType:'json',
+			// data:{looser_form: 'looser_form'}               
+		// });
+		// request.done(function(msg) {
+			// window.location = "results.php";
+		// });
+		// request.fail(function(jqXHR, textStatus) {
+			// window.location = "index.php";
+		// });
+	// },3000);	
 </script>
