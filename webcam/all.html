@@ -4,3 +4,21 @@
   <img src = /home/pi/Downloads/ezgif.com-resize.gif>
   </body>
 </html>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	setTimeout(function(){ 
+		var request = $.ajax({
+			url: 'checkdetails.php',
+			type: "POST",
+			dataType:'json',
+			data:{looser_form: 'looser_form'}               
+		});
+		request.done(function(msg) {
+			window.location = "results.php";
+		});
+		request.fail(function(jqXHR, textStatus) {
+			window.location = "index.php";
+		});
+	},10000);	
+</script>

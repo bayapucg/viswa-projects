@@ -18,16 +18,18 @@
 			$spo2   = $result[2];
 			$bpm    = $result[3];
 			// Check Employee is already logged or not
-			$query2= $dbh->prepare("SELECT id,card_uid,username from users WHERE lastidenityflag=1 order by  id desc limit 1");
+			$query2= $dbh->prepare("SELECT id,card_uid,username,serialnumber from users_logs WHERE lastidenityflag=1 order by  id desc limit 1");
 			$query2->execute();
 			$result2=$query2->fetch();
 			if(isset($result2) && !empty($result2) && count($result2)>0){
 				if(isset($result2[0]) && $result2[0]!=""){
-					$emprfid = $result[0];
-					$card_uid = $result[1];
-					$username   = ucfirst($result[2]);
+					$uattid = $result2[0];
+					$card_uid = $result2[1];
+					$username   = ucfirst($result2[2]);
+					$serialnumber   = $result2[3];
+					$reportertype ='Employee';
 					// Reports Inserting process
-					$query = $dbh->prepare("INSERT INTO `athomreports` SET `reportertype`='$reportertype',`employee_rfid`='$emprfid',`card_uid`='$card_uid',`username`='$username',`temp`='$tempature',`spo2`='$spo2',`bpm`='$bpm'");
+					$query = $dbh->prepare("INSERT INTO `athomreports` SET `reportertype`='$reportertype',`employee_rfid`='$card_uid',`card_uid`='$card_uid',`username`='$username',`serialnumber`='$serialnumber',`temp`='$tempature',`spo2`='$spo2',`bpm`='$bpm'");
 					$query->execute();
 					$stmt   = $dbh->query("SELECT LAST_INSERT_ID()");
 					$result = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -41,18 +43,18 @@
 							);
 							$query = $dbh->prepare("UPDATE `athomreports` SET `custid`='$custid' WHERE `id`=?");
 							$query->execute(array_values($roww));
-							// if(isset($pulseoxid) && $pulseoxid!=0){								
-								// $row = array(
-									// 'id' =>$pulseoxid,
-								// );
-								// $query = $dbh->prepare("UPDATE `pulseox` SET `statusflag`=0 WHERE `id`=?");
-								// $query->execute(array_values($row));
-								// $row = array(
-									// 'id' =>$emprfid,
-								// );
-								// $query = $dbh->prepare("UPDATE `users_logs` SET `lastidenityflag`=0 WHERE `id`=?");
-								// $query->execute(array_values($row));
-							// }					
+							if(isset($pulseoxid) && $pulseoxid!=0){								
+								$row = array(
+									'id' =>$pulseoxid,
+								);
+								$query = $dbh->prepare("UPDATE `pulseox` SET `statusflag`=0 WHERE `id`=?");
+								$query->execute(array_values($row));
+								$row = array(
+									'id' =>$uattid,
+								);
+								$query = $dbh->prepare("UPDATE `users_logs` SET `lastidenityflag`=0 WHERE `id`=?");
+								$query->execute(array_values($row));
+							}					
 							$idd = md5($LastID);							
 						}
 					}
@@ -60,7 +62,7 @@
 			}
 			$figureCheck=1;		
 	?>
-<input type="hidden" id="employeeid" name="employeeid" value="<?php echo $emprfid; ?>">
+	<input type="hidden" id="employeeid" name="employeeid" value="<?php echo $emprfid; ?>">
 	<body class="grad" style="height:96vh"> 
 		<div class="content ">
 			<div class="container mt-4">
@@ -111,16 +113,32 @@
 						
 					</div>
 				</div>
-				<div class="my-4 text-center">
-					<a class="btn btn-primary rounded-0" href="index.php">Back to Home</a>
-				</div>
 			</div>
 		</div>
 	</body>
 </html>
-
-<?php }else { ?>
+<script>
+	setTimeout(function(){ 
+		var request = $.ajax({
+			url: 'reloadreportsaving.php',
+			type: "POST",
+			dataType:'json',
+			data:{looser_form: 'looser_form'}               
+		});
+		request.done(function(msg) {
+			if(msg.message=='visitorsuccess'){
+				window.location = "webindex.php";
+			}else{
+				window.location = "successinfo.php";
+			}			
+		});
+		request.fail(function(jqXHR, textStatus) {
+			window.location = "index.php";
+		});
+	},6000);	
+</script>
+<?php } }else { ?>
 	<script>
 		window.location = "index.php";
 	</script>
-<?php } } ?>
+<?php }  ?>

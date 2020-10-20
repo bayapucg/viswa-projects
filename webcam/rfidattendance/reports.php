@@ -1,35 +1,26 @@
+<?php
+session_start();
+if (!isset($_SESSION['Admin-name'])) {
+  header("location: login.php");
+}
+?>
 <?php include("header.php");?>
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap4.min.js"></script>
 <body class="grad">
-	<?php 
-		include("sidebar.php");	
-		include('dbconnection.php');		
-		$fromDate = "";
-		$toDate ="";
-		if(isset($_GET['fromDate']) && $_GET['fromDate']!=""){
-			$fromDate = $_GET['fromDate'];
-			if(isset($_GET['toDate']) && $_GET['toDate']!=""){
-				$toDate = $_GET['toDate'];
-			}else{
-				$toDate = $_GET['fromDate'];
-			}
-		}
-		if($fromDate!=""){
-			$stmt = $dbh->query("SELECT * FROM athomreports WHERE DATE(createdat) between '$fromDate'	AND '$toDate' ORDER BY id DESC");
-		}else{
-			$stmt = $dbh->query("SELECT * FROM athomreports ORDER BY id DESC");
-		}		
-		$resultSet = $stmt->fetchAll(PDO::FETCH_ASSOC);
-	?>  
 <div class="content-wrapper">
     <div class="container-fluid">		
 		<div class="row my-4  py-4 mx-1" style="background:#ffffff54;">
 			<div class="col-md-3">
 				<label for="">From Date</label>
-				<input type="date" class="form-control rounded-0" id="fromDate" value="<?php echo $fromDate; ?>" placeholder="Enter Name" >
+				<input type="date" class="form-control rounded-0" id="fromDate" value="<?php echo $fromDate; ?>"/>
 			</div>
 			<div class="col-md-3">
 				<label for="">To Date</label>
-				<input type="date" class="form-control rounded-0" id="toDate" value="<?php echo $toDate; ?>" placeholder="Enter Name" >
+				<input type="date" class="form-control rounded-0" id="toDate" value="<?php echo $toDate; ?>"/>
 			</div>
 			<div class="col-md-3">
 				<label for="">&nbsp;</label>
@@ -55,15 +46,44 @@
 					</tr>
 				</thead>
 				<tbody>
-					<?php if(isset($resultSet) && !empty($resultSet) && count($resultSet)>0){ foreach($resultSet as $result){ ?>
+					<?php
+						require'connectDB.php';
+						$fromDate = "";
+						$toDate ="";
+						$resultSet =array();
+						if(isset($_GET['fromDate']) && $_GET['fromDate']!=""){
+							$fromDate = $_GET['fromDate'];
+							if(isset($_GET['toDate']) && $_GET['toDate']!=""){
+								$toDate = $_GET['toDate'];
+							}else{
+								$toDate = $_GET['fromDate'];
+							}
+						}
+						if($fromDate!=""){
+							$sql = "SELECT * FROM athomreports WHERE DATE(createdat) between '$fromDate'	AND '$toDate' ORDER BY id DESC";
+						}else{
+							$sql ="SELECT * FROM athomreports ORDER BY id DESC";
+						}
+						$resultt = mysqli_stmt_init($conn);
+						if (!mysqli_stmt_prepare($resultt, $sql)) {
+							echo '<p class="error">SQL Error</p>';
+						} 
+						else{
+							mysqli_stmt_execute($resultt);
+							$resultl = mysqli_stmt_get_result($resultt);
+							$i=1;
+                            while ($result = mysqli_fetch_assoc($resultl)){
+						?>
 						<tr>
 							<td><?php 
 								echo ucfirst($result['reportertype']).'<br/>';
 								if(isset($result['employee_rfid']) && $result['employee_rfid']!=NULL){
 									if(isset($result['employee_rfid']) && $result['employee_rfid']!=NULL){
-										echo ucfirst($result['employee_rfid']).'<br/>';
+										echo $result['employee_rfid'].'<br/>';
+										echo ucfirst($result['username']).'<br/>';
+										echo $result['serialnumber'].'<br/>';
 									}
-								}else{ ?>
+								}else{?>
 									<?php if(isset($result['photoimge']) && $result['photoimge']!="") { ?>
 										<a href="javascript:void(0);" onclick="imabeviewfun(<?php echo $i; ?>);">Image view</a>
 										<span id="imge_<?php echo $i; ?>">
@@ -87,7 +107,7 @@
 											</div>
 										</span>
 									<?php } ?>
-								<?php	echo ucfirst($result['mobilenumber']).'<br/>';
+								<?php echo ucfirst($result['mobilenumber']).'<br/>';
 								}								
 							?></td>
 							<td><?php 
@@ -96,7 +116,7 @@
 								echo "Heartbeet: ". $result['bpm'].'<br/>';
 							?></td>
 						</tr>
-					<?php } } ?>
+						<?php $i++; } } ?>
 				</tbody>
 			</table>
 		</div>
