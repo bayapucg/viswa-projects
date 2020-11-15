@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon"  href="<?=base_url();?>assets/img/fav.png">
+<link rel="icon" href="<?php echo base_url();?>assets/img/fav.png">
     <title><?php echo $page_title;?> Picto Facio Mart	</title>
     <link rel="shortcut icon" href="<?=base_url();?>assets/img/small_logo.jpg" />
     <link href="<?=base_url();?>admin_assets/css/bootstrap.min.css" rel="stylesheet">
