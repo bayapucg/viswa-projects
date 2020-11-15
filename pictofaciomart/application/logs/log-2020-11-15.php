@@ -278,3 +278,6 @@ ERROR - 2020-11-15 12:54:40 --> 404 Page Not Found: Assets/img
 ERROR - 2020-11-15 12:54:49 --> 404 Page Not Found: admin/Settings/skin-config.html
 ERROR - 2020-11-15 12:55:23 --> 404 Page Not Found: admin/Settings/skin-config.html
 ERROR - 2020-11-15 12:55:39 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-11-15 12:58:26 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-11-15 12:58:30 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-11-15 12:58:49 --> 404 Page Not Found: Sitewebmanifest/index
