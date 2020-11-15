@@ -94,7 +94,7 @@
 				</div>
 			</div>
 			<div class="row justify-content-center d-flex">
-				<div class="col-md-7">
+				<div class="col-md-12 text-center">
 					<h4 class="text-white">Place your finger on the sensor at the right hand side</h4>
 				</div>
 			</div>

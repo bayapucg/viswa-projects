@@ -27,8 +27,25 @@
 		$figureCheck=0;
 	}
 ?>
+<style>
+	.cust-wid{
+		width:390px !important;
+	}
+	#my_camera{
+		width:100%;
+		height:100%;
+	}
+@media only screen and (max-width: 650px) {
+	.cust-wid{
+		.cust-wid{
+		width:200px !important;
+	}
+		
+	}
+}
+</style>
 <body class="grad">  
-	<div class="container">
+	<div class="container-fluid">
 		<div class="col-md-12">
 			<h1 class="text-center site-col my-4 text-white stoke-apply" >ATOHM WELCOMES YOU</h1>
 		</div>
@@ -41,36 +58,36 @@
 			<input type="hidden" id="id" name="id" value="<?php echo $id; ?>">
 			<input type="hidden" name="image" class="image-tag">
 			<div class="row d-flex justify-content-center">
-				<div class="col-md-4 ">
-					<div class="px-4" id="my_camera"></div>
+				<div class="col-md-4 col-4 mt-4">
+					<div class="mt-3 " id="my_camera"></div>
 					<br/>
 					
 				</div>
-				<div class="col-md-4 mt-4">
+				<div class="col-md-4 mt-4 col-4">
 					<div class="row">
 						<div class="mt-3 col-md-12">
 							
 							<input class="form-control rounded-0" type="number" name="phone_number" id="code" placeholder="Phone Number">
 							<div class="btn-group-vertical  mt-1" role="group" aria-label="Basic example">					
-								<div class="btn-group" style="width:58vh;">
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '1';">1</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '2';">2</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '3';">3</button>
+								<div class="btn-group cust-wid" >
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '1';">1</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '2';">2</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '3';">3</button>
 								</div>
 								<div class="btn-group">
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '4';">4</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '5';">5</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '6';">6</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '4';">4</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '5';">5</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '6';">6</button>
 								</div>
 								<div class="btn-group">
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '7';">7</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '8';">8</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '9';">9</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '7';">7</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '8';">8</button>
+									<button type="button" class="btn btn-outline-secondary" onclick="document.getElementById('code').value=document.getElementById('code').value + '9';">9</button>
 								</div>
 								<div class="btn-group">
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value.slice(0, -1);">&lt;</button>
-									<button type="button" class="btn btn-outline-secondary py-3" onclick="document.getElementById('code').value=document.getElementById('code').value + '0';">0</button>
-									<button type="button" class="btn btn-primary py-3" onclick="document.getElementById('code').value='';">CLEAR</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value.slice(0, -1);">&lt;</button>
+									<button type="button" class="btn btn-outline-secondary " onclick="document.getElementById('code').value=document.getElementById('code').value + '0';">0</button>
+									<button type="button" class="btn btn-primary " onclick="document.getElementById('code').value='';">CLEAR</button>
 								</div>
 							</div>
 						</div>
@@ -82,7 +99,7 @@
 						</div>-->
 					</div>
 				</div>
-				<div class="col-md-4 mt-4 text-white">
+				<div class="col-md-4 mt-4 text-white col-4">
 					<img src="img/rfid.png" class="img-fluid">
 				</div>
 			</div>
@@ -208,19 +225,20 @@
 		});
 	}
     Webcam.set({
-        width: 350,
-        height: 350,
+       
+       
         image_format: 'jpeg',
         jpeg_quality: 90
     });  
+	
     Webcam.attach( '#my_camera' );  
 	setTimeout(function(){ 
-		var request = $.ajax({
-			url: 'reloadreportsaving.php',
-			type: "POST",
-			dataType:'json',
-			data:{looser_man: 'webcampage',looser_form: 'looser_form'}               
-		});
+		// var request = $.ajax({
+			// url: 'reloadreportsaving.php',
+			// type: "POST",
+			// dataType:'json',
+			// data:{looser_man: 'webcampage',looser_form: 'looser_form'}               
+		// });
 		request.done(function(msg) {
 			if(msg.message=='noresults'){
 				window.location = "index.php";

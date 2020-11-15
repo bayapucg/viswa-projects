@@ -1,0 +1,31 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-15 01:04:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 02:33:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 03:57:03 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 04:40:16 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-15 04:40:27 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 04:40:27 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2020-10-15 04:40:27 --> 404 Page Not Found: Well-known/apple-app-site-association
+ERROR - 2020-10-15 04:40:28 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-15 04:40:28 --> 404 Page Not Found: Assets/css
+ERROR - 2020-10-15 04:41:00 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-15 04:41:07 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-15 04:41:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 04:41:12 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-15 04:41:12 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-15 04:41:13 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-15 04:41:13 --> 404 Page Not Found: Asset-manifestjson/index
+ERROR - 2020-10-15 04:41:15 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-15 08:15:05 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 08:15:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 10:09:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-15 10:30:18 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 11:51:59 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 14:52:23 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 16:12:11 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 16:12:13 --> 404 Page Not Found: Cartphp/index
+ERROR - 2020-10-15 16:12:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 18:56:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 18:56:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-15 23:26:19 --> 404 Page Not Found: Cartphp/index

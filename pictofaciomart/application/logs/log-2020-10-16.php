@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-16 04:06:01 --> 404 Page Not Found: Wp-content/plugins
+ERROR - 2020-10-16 06:34:20 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 06:38:48 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 08:06:11 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 08:06:12 --> 404 Page Not Found: Sitemapxml/index
+ERROR - 2020-10-16 08:06:22 --> 404 Page Not Found: Cartphp/index
+ERROR - 2020-10-16 08:06:34 --> 404 Page Not Found: Adstxt/index
+ERROR - 2020-10-16 09:21:37 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 09:22:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 09:27:11 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 09:27:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 09:54:47 --> 404 Page Not Found: Env/index
+ERROR - 2020-10-16 12:07:19 --> 404 Page Not Found: Wp-admin/admin-ajax.php
+ERROR - 2020-10-16 12:07:20 --> 404 Page Not Found: Env/index
+ERROR - 2020-10-16 12:07:22 --> 404 Page Not Found: Api/.env
+ERROR - 2020-10-16 12:07:23 --> 404 Page Not Found: Laravel/.env
+ERROR - 2020-10-16 12:07:24 --> 404 Page Not Found: Test/.env
+ERROR - 2020-10-16 12:07:25 --> 404 Page Not Found: admin/Env/index
+ERROR - 2020-10-16 12:07:26 --> 404 Page Not Found: Vendor/.env
+ERROR - 2020-10-16 12:07:27 --> 404 Page Not Found: Sites/.env
+ERROR - 2020-10-16 12:07:28 --> 404 Page Not Found: Blog/.env
+ERROR - 2020-10-16 12:07:29 --> 404 Page Not Found: System/.env
+ERROR - 2020-10-16 12:07:30 --> 404 Page Not Found: Public/.env
+ERROR - 2020-10-16 12:07:31 --> 404 Page Not Found: Shop/.env
+ERROR - 2020-10-16 12:54:56 --> 404 Page Not Found: Env/index
+ERROR - 2020-10-16 13:07:37 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 13:12:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 13:12:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 23:03:52 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-16 23:46:45 --> 404 Page Not Found: Robotstxt/index

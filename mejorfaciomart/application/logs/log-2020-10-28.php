@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-28 04:11:32 --> 404 Page Not Found: Assets/css
+ERROR - 2020-10-28 04:11:32 --> 404 Page Not Found: Vendor/select2
+ERROR - 2020-10-28 04:11:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:32 --> 404 Page Not Found: Images/icons
+ERROR - 2020-10-28 04:11:32 --> 404 Page Not Found: Vendor/select2
+ERROR - 2020-10-28 04:11:33 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:33 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:33 --> 404 Page Not Found: Images/icons
+ERROR - 2020-10-28 04:11:33 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-28 04:11:35 --> 404 Page Not Found: Assets/css
+ERROR - 2020-10-28 04:11:35 --> 404 Page Not Found: Images/icons
+ERROR - 2020-10-28 04:11:35 --> 404 Page Not Found: Vendor/select2
+ERROR - 2020-10-28 04:11:35 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:35 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:36 --> 404 Page Not Found: Vendor/select2
+ERROR - 2020-10-28 04:11:36 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:36 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:11:36 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-10-28 04:12:14 --> 404 Page Not Found: Assets/css
+ERROR - 2020-10-28 04:12:14 --> 404 Page Not Found: Giftcards/images
+ERROR - 2020-10-28 04:12:14 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:12:14 --> 404 Page Not Found: Giftcards/vendor
+ERROR - 2020-10-28 04:12:14 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:12:16 --> 404 Page Not Found: Giftcards/vendor
+ERROR - 2020-10-28 04:12:16 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:12:16 --> 404 Page Not Found: Assets/js
+ERROR - 2020-10-28 04:12:16 --> 404 Page Not Found: Giftcards/images
