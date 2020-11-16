@@ -4,6 +4,14 @@
     width: 100%;
     height: 100%;
   }
+  
+  .bg-f9f9f9{
+	  background:#eee;padding:15px 0px;
+  }
+  .bg-e9e9e9{
+	  background:#f9f9f9;
+	  padding:15px 0px;
+  }
   </style>
   <div class="clearfix sm-hide">&nbsp;</div>
   <div class="clearfix">&nbsp;</div>
@@ -36,6 +44,12 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
+<section class=" bg-e9e9e9">
+	<div class="container text-center">
+	<h3>Disclaimer: This business is represented or affiliated with Macy's.com</h3>
+	</div>
+</section>
 	<main>	
 		
         <section class="category-area section-padding30">
@@ -157,5 +171,8 @@
                 <!-- End Nav Card -->
             </div>
         </section>
+		<section class="text-center bg-f9f9f9 py-4">
+	<h2><i>"You can also buy our products with your available gift cards"</i></h2>
+</section>
 </main>
   

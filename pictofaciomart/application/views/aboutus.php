@@ -10,6 +10,11 @@
 			</div>
 		</div>
 	</section>
+	<section class=" bg-e9e9e9">
+	<div class="container text-center">
+	<h3>Disclaimer: This business is represented or affiliated with Macy's.com</h3>
+	</div>
+</section>
 	 <section class="about_us pt-4">
         <div class="container">
             <div class="row justify-content-center">

@@ -14,6 +14,11 @@
     </div>
   </div>
   <!-- slider Area End-->
+  <section class=" bg-e9e9e9">
+	<div class="container text-center">
+	<h3>Disclaimer: This business is represented or affiliated with Macy's.com</h3>
+	</div>
+</section>
 
   <!--================Checkout Area =================-->
   <section class="checkout_area section_padding">
