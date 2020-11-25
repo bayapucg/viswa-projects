@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-09-04 01:53:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 03:15:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 06:08:51 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 09:46:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 13:00:48 --> 404 Page Not Found: Assets/images
+ERROR - 2020-09-04 13:00:59 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-04 13:01:28 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-04 13:02:07 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-04 13:03:14 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 13:34:21 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 14:55:26 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 15:19:06 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 15:49:56 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 16:19:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 16:27:12 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 16:27:15 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 16:27:20 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 16:27:49 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 16:45:43 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 17:47:31 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 18:12:03 --> 404 Page Not Found: Wordpress/wp-admin
+ERROR - 2020-09-04 18:47:27 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-09-04 20:36:33 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 20:38:40 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 20:38:42 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 20:48:42 --> 404 Page Not Found: Sitewebmanifest/index
+ERROR - 2020-09-04 22:13:56 --> 404 Page Not Found: Robotstxt/index
