@@ -172,6 +172,9 @@
                 <!-- End Nav Card -->
             </div>
         </section>
+        <section>
+			<img class="img-fluid" src="<?php echo base_url();?>assets/img/block-sec.png" alt="">
+        </section>
 		
 </main>
   
