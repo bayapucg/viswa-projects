@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<?=base_url();?>assets/images/small_logo.jpg" />
-    <title>Picto Facio Mart</title>
+    <title>theavfashion</title>
     <link href="<?=base_url();?>admin_assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url();?>admin_assets/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="<?=base_url();?>admin_assets/css/animate.css" rel="stylesheet">    <link href="<?=base_url();?>admin_assets/css/style.css" rel="stylesheet">    <link href="<?= base_url() ?>admin_assets/js/plugins/toastr/toastr.min.css" rel="stylesheet">
